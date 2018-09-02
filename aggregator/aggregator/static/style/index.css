@@ -1,0 +1,14 @@
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.card-columns {
+  column-count: 3;
+}
+@media (max-width: 900px) {
+  .card-columns {
+    column-count: 2;
+  }
+}
